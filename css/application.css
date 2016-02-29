@@ -1,0 +1,38 @@
+* {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.nav-bar {
+  background-image: url("../img/hero-img.jpg");
+  display: flex;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  border: 1px solid red; }
+
+.nav-bar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+
+.nav-bar a {
+  color: #fff;
+  text-decoration: none; }
+
+.nav-bar li {
+  border: 1px solid red;
+  list-style: none;
+  flex: 1;
+  display: flex;
+  flex-basis: 80px; }
+
+.nav-bar img {
+  width: 130px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center; }
+
+/*# sourceMappingURL=application.css.map */
