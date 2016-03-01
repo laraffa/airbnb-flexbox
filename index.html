@@ -7,45 +7,78 @@
   </head>
   <body>
     <div class="wrapper">
-      <!-- <header> -->
+      <div class="header">
+
         <div class="nav-bar">
-            <img src="img/logo.png">
           <ul>
-            <li><a href="#">Become a Host</a></li>
+            <li id="logo"><img src="img/logo.png" alt="" /></li>
+            <li id="selectBox" <a href="#">Become a Host</a></li>
             <li><a href="#">Help</a></li>
             <li><a href="#">Sign Up</a></li>
             <li><a href="#">Log In</a></li>
           </ul>
         </div>
-        <!-- <div class="title">
+
+        <div class="centered">
+          <div class="title">
           <h1>Welcome Home</h1>
-          <p></p>
+          <p>Rent unique places to stay from local hosts in 190+ countries.</p>
           <a href="#">How It Works</a>
         </div>
+      </div>
 
-        <form  class="flex-form">
+        <div class="form-center">
+          <form  class="flex-form">
+            <input type="search" placeholder="Where do you want to go?">
 
-          <input type="search" placeholder="Where do you want to go?">
+            <label for="from">From</label>
+            <input type="date" name="from">
 
-          <label for="from">From</label>
-          <input type="date" name="from">
+            <label for="from">To</label>
+            <input type="date" name="to">
 
-          <label for="from">To</label>
-          <input type="date" name="to">
+            <select name="" id="">
+              <option value="1">1 Guest</option>
+              <option value="2">2 Guest</option>
+              <option value="3">3 Guest</option>
+              <option value="4">4 Guest</option>
+              <option value="5">5 Guest</option>
+            </select>
 
-          <select name="" id="">
-            <option value="1">1 Guest</option>
-            <option value="2">2 Guest</option>
-            <option value="3">3 Guest</option>
-            <option value="4">4 Guest</option>
-            <option value="5">5 Guest</option>
-          </select>
+            <input type="submit" value="Search">
+          </form>
+        </div>
+      </div>
 
-          <input type="submit" value="Search">
+      <div class="box2">
+        <div class="box-img">
+          <h1>Love This?</h1>
+        </div>
 
-        </form> -->
+        <div class="box-content">
+          <h3>Start your adventure with</h3>
+          <h1>$100</h1>
+          <span>Live on a Private Island</span>
+          <p><a href="#">* Terms and conditions</a> apply</p>
+        </div>
+      </div>
 
-      <!-- </header> -->
+      <div class="box3">
+        <!-- <h3>Just for the weekend</h3>
+        <p>Discover new, inspiring places close to home.</p> -->
+
+        <div class="destination1">
+          <p>Seattle</p>
+        </div>
+        <div class="destination2">
+          <p>Vancouver</p>
+        </div>
+        <div class="destination3">
+          <p>Victoria</p>
+        </div>
+    
+      </div>
+
     </div>
   </body>
 </html>
